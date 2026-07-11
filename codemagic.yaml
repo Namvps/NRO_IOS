@@ -11,6 +11,6 @@ workflows:
         script: |
           mkdir -p Payload
           mv build/Build/Products/Release-iphoneos/*.app Payload/
-          zip -r game.ipa Payload
+          zip -r NroIOS.ipa Payload
     artifacts:
-      - game.ipa
+      - NroIOS.ipa
